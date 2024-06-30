@@ -3,6 +3,7 @@ About r-metrica-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metrica-feedstock/blob/main/LICENSE.txt)
 
+
 About r-metrica
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://adriancorrendo.github.io/metrica/
 Package license: MIT
 
 Summary: A compilation of more than 80 functions designed to quantitatively and visually evaluate prediction performance of regression (continuous variables) and classification (categorical variables) of point-forecast models (e.g. APSIM, DSSAT, DNDC, supervised Machine Learning). For regression, it includes functions to generate plots (scatter, tiles, density, & Bland-Altman plot), and to estimate error metrics (e.g. MBE, MAE, RMSE), error decomposition (e.g. lack of accuracy-precision), model efficiency (e.g. NSE, E1, KGE), indices of agreement (e.g. d, RAC), goodness of fit (e.g. r, R2), adjusted correlation coefficients (e.g. CCC, dcorr), symmetric regression coefficients (intercept, slope), and mean absolute scaled error (MASE) for time series predictions. For classification (binomial and multinomial), it offers functions to generate and plot confusion matrices, and to estimate performance metrics such as accuracy, precision, recall, specificity, F-score, Cohen's Kappa, G-mean, and many more. For more details visit the vignettes <https://adriancorrendo.github.io/metrica/>.
+
 About r-metrica
 ---------------
 
@@ -38,31 +40,17 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.2</td>
+              <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16672&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_r_base4.3</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16672&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_r_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16672&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_r_base4.3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16672&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-metrica-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -153,7 +141,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
