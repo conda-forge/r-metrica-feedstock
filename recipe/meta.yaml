@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metrica_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metrica/metrica_{{ version }}.tar.gz
-  sha256: 270a2de6562bb1789bb3a3b81bbfdb481423f3acab44e2ba23a766b69368f382
+  sha256: 935d030dbaf7aedb22b0500a602fa34c331b29fad7499c010b438ddf14a867c1
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   skip: true  # [r_base == "4.0"]
   rpaths:
     - lib/R/lib/
