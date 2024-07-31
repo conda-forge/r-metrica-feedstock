@@ -1,6 +1,5 @@
 {% set version = "2.1.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-metrica
@@ -13,8 +12,7 @@ source:
   sha256: 935d030dbaf7aedb22b0500a602fa34c331b29fad7499c010b438ddf14a867c1
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
